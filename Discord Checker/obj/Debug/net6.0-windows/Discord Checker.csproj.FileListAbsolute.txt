@@ -1,0 +1,52 @@
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.exe
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.deps.json
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.runtimeconfig.json
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.dll
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\ref\Discord Checker.dll
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.pdb
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.csproj.AssemblyReference.cache
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker_MarkupCompile.cache
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker_MarkupCompile.lref
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\App.baml
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.g.resources
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.AssemblyInfoInputs.cache
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.AssemblyInfo.cs
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.csproj.CoreCompileInputs.cache
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.dll
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\ref\Discord Checker.dll
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.pdb
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.genruntimeconfig.cache
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker_Content.g.cs
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Leaf.xNet.dll
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.csproj.CopyComplete
+C:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.exe
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.deps.json
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.runtimeconfig.json
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.dll
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\ref\Discord Checker.dll
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Discord Checker.pdb
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Leaf.xNet.dll
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.csproj.AssemblyReference.cache
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\App.g.cs
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker_Content.g.cs
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker_MarkupCompile.cache
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker_MarkupCompile.lref
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\App.baml
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.g.resources
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.AssemblyInfoInputs.cache
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.AssemblyInfo.cs
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.csproj.CoreCompileInputs.cache
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.csproj.CopyComplete
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.dll
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\ref\Discord Checker.dll
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.pdb
+E:\Users\lovewater\RiderProjects\Discord Checker\Discord Checker\obj\Debug\net6.0-windows\Discord Checker.genruntimeconfig.cache

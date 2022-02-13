@@ -1,0 +1,108 @@
+﻿<Window x:Class="Discord_Checker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Discord_Checker"
+        mc:Ignorable="d"
+        Title="[Love Apples] Discord Token Checker" MinHeight="550" MaxHeight="550" MaxWidth="870" MinWidth="870">
+    <Grid x:Name="MainRoot" Background="#36393F">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="250"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="570"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <AccessText Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" Margin="15,18,0,0" Foreground="LightGray">Путь до .txt файла с токенами*</AccessText>
+        <AccessText Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" Margin="15,18,0,0" Foreground="LightGray">Проверенные элементы:</AccessText>
+        <AccessText Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="15,0,0,78" Foreground="LightGray">Путь сохранения логов после отработки</AccessText>
+        <AccessText Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom" Margin="15,0,0,95" Foreground="LightGray">Путь до .txt файла с прокси</AccessText>
+        <AccessText Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom" Margin="15, 0,0,12" Foreground="LightGray">Процесс отработки:</AccessText>
+        <TextBox Grid.Row="0" Grid.Column="0" x:Name="PutDoTokens" TextWrapping="NoWrap" PreviewMouseDown="UIElement_OnPreviewMouseDown" MinWidth="555" MaxWidth="555" HorizontalAlignment="Right" Padding="5" BorderBrush="#2F3136" Background="#2F3136" Foreground="White" Height="30" VerticalAlignment="Top" Margin="0,45,0,0">Нажмите, чтобы изменить путь
+            <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#2F3136">
+                        
+                </DropShadowEffect>
+            </TextBox.Effect>
+        </TextBox>
+        
+        <TextBox x:Name="SaveLogs" Grid.Row="0" PreviewMouseDown="SaveLogs_OnPreviewMouseDown" TextWrapping="NoWrap" Grid.Column="0" MinWidth="555" MaxWidth="555" HorizontalAlignment="Right" Padding="5" Foreground="White" Height="30" Background="#2F3136" BorderBrush="#2F3136" VerticalAlignment="Center" Margin="0,0,0,11">Нажмите, чтобы изменить путь (по умолчанию - в корневой папке чекера)
+        <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#2F3136">
+                    
+                </DropShadowEffect>
+            </TextBox.Effect>
+        </TextBox>
+        
+        <TextBox x:Name="PutDoProxies" Grid.Row="0" PreviewMouseDown="UIElement_OnPreviewMouseDown_GetProxies" TextWrapping="NoWrap" Grid.Column="0" MinWidth="555" MaxWidth="555" HorizontalAlignment="Right" Padding="5" Foreground="White" Height="30" Background="#2F3136" BorderBrush="#2F3136" VerticalAlignment="Bottom" Margin="0,0,0,55">Нажмите, чтобы изменить путь (не трогайте это поле, если прокси не требуются)
+            <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#2F3136">
+                    
+                </DropShadowEffect>
+            </TextBox.Effect>
+        </TextBox>
+        
+        <TextBox Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" BorderBrush="#2F3136" BorderThickness="1" x:Name="LogsBox" MinWidth="555" MaxWidth="555" Height="235" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#2F3136" Padding="5" Foreground="White">
+            <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#2F3136">
+                    
+                </DropShadowEffect>
+            </TextBox.Effect>
+        </TextBox>
+        
+        <TextBox Grid.Row="0" Grid.Column="1" TextWrapping="NoWrap" BorderBrush="#2F3136" BorderThickness="1" x:Name="LogsBoxCheckedTokens"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#2F3136" Width="250" Height="206" Padding="5" Margin="0,0,0,10" Foreground="White">
+            <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#2F3136">
+                    
+                </DropShadowEffect>
+            </TextBox.Effect>
+        </TextBox>
+        
+        <Button Grid.Row="1" Grid.Column="1" Click="Contacts_OnClick" x:Name="Contacts" Background="#807079" BorderBrush="#807079" Foreground="White" FontSize="15" Height="30" VerticalAlignment="Bottom" Margin="15, 15, 15, 150">Связаться с разработчиком
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#807079">
+                    
+                </DropShadowEffect>
+            </Button.Effect>
+        </Button>
+        
+        <Button Grid.Row="1" Grid.Column="1" Click="GetProxiesBtn_AllClear" x:Name="AllClear" Background="#535760" BorderBrush="#535760" Foreground="White" FontSize="15" Height="30" VerticalAlignment="Bottom" Margin="15, 15, 15, 195">Очистить всё
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#535760">
+                    
+                </DropShadowEffect>
+            </Button.Effect>
+        </Button>
+        
+        <Button Grid.Row="1" Grid.Column="1" Click="GetProxiesBtn_GetProxies" x:Name="GetProxiesBtn" Background="#4752C4" BorderBrush="#4752C4" Foreground="White" FontSize="15" Height="30" VerticalAlignment="Bottom" Margin="15, 15, 15, 105">Проверить прокси
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#4752C4">
+                    
+                </DropShadowEffect>
+            </Button.Effect>
+        </Button>
+        
+        <Button Grid.Row="1" Grid.Column="1" Click="ButtonBase_OnClick_Start" x:Name="StartBtn" Background="#3BA55D" BorderBrush="#3BA55D" Foreground="White" FontSize="15" Height="30" VerticalAlignment="Bottom" Margin="15, 15, 15, 16">Начать
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#3BA55D">
+                    
+                </DropShadowEffect>
+            </Button.Effect>
+        </Button>
+        
+        <Button Grid.Row="1" Grid.Column="1" Click="ButtonBase_OnClick_Stop" x:Name="StopBtn" Background="#ED4245" BorderBrush="#ED4245" Foreground="White" FontSize="15" Height="30" VerticalAlignment="Bottom" Margin="15, 15, 15, 60">Остановить
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="20" Color="#ED4245">
+                    
+                </DropShadowEffect>
+            </Button.Effect>
+        </Button>
+        
+        
+        
+    </Grid>
+</Window>

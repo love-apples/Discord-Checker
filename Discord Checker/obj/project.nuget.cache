@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "53AMSKTVEvAwNx4Hj7lIy1XycBGo231lePD43pSjj+0ZE69SDKV95XgCoVr2ptmgaVAqANWWAXCJOiC5qLfM6A==",
+  "success": true,
+  "projectFilePath": "E:\\Users\\lovewater\\RiderProjects\\Discord Checker\\Discord Checker\\Discord Checker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\loveapples\\.nuget\\packages\\leaf.xnet\\5.2.10\\leaf.xnet.5.2.10.nupkg.sha512",
+    "C:\\Users\\loveapples\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
